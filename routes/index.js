@@ -6,7 +6,7 @@ var path = require('path');
 router.get('/', function(req, res, next) {
 	//res.sendFile(path.join(__dirname+'/index.html'));
 
-  res.render('index', { title: 'Express' });
+  //res.render('index', { title: 'Express' });
 /*
   fs.readFile('index.html', function(error, data){ // load index.html file
 	  if(error){
